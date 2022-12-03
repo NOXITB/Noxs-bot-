@@ -1,0 +1,24 @@
+{
+  "name": "discordjs-v14-commands-handler",
+  "version": "1.0.0",
+  "description": "An amazing and advanced command handler for discord.js version-14. Legend: Commands, Events, Permissions, MongoDB and More! - by Nadid Wasique [DaTaklaCatto]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaTaklaCatto/Discord.JS-V14-Commands-Handler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaTaklaCatto/Discord.JS-V14-Commands-Handler/issues"
+  },
+  "homepage": "https://github.com/DaTaklaCatto/Discord.JS-V14-Commands-Handler#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "node-fetch": "^3.3.0"
+  }
+}
