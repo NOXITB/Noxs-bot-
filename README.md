@@ -1,2 +1,1 @@
-# Discord.JS V14 Commands Handler
-An amazing and advanced command handler for discord.js version-14. Legend: Commands, Events, Permissions, MongoDB and More! - by Nadid Wasique [DaTaklaCatto]
+# <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" height="20px">Discord.JS V14 Commands Handler Discord.JS V14 Commands Handler

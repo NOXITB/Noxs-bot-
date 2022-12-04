@@ -1,5 +1,5 @@
 {
-  "name": "discordjs-v14-commands-handler",
+  "name": "discord.js-v14-commands-handler",
   "version": "1.0.0",
   "description": "An amazing and advanced command handler for discord.js version-14. Legend: Commands, Events, Permissions, MongoDB and More! - by Nadid Wasique [DaTaklaCatto]",
   "main": "index.js",
@@ -10,15 +10,29 @@
     "type": "git",
     "url": "git+https://github.com/DaTaklaCatto/Discord.JS-V14-Commands-Handler.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Command Handler","Discord.JS","discord.js","discord-bot"],
+  "author": "Nadid Wasique",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/DaTaklaCatto/Discord.JS-V14-Commands-Handler/issues"
   },
   "homepage": "https://github.com/DaTaklaCatto/Discord.JS-V14-Commands-Handler#readme",
+  "devDependencies": {
+    "node": "^16.9.1"
+  },
   "dependencies": {
     "discord.js": "^14.7.1",
-    "node-fetch": "^3.3.0"
+    "node-fetch": "^3.3.0",
+    "@discordjs/rest": "^0.4.0-dev.1648166871.cedd053",
+    "ascii-table": "^0.0.9",
+    "box-console": "^2.0.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.30.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "hastebin-gen": "^2.0.5",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.2",
+    "ms": "^2.1.3"
   }
 }
