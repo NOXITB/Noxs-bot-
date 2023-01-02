@@ -4,8 +4,8 @@ module.exports = {
     EXPRESS: false,
     AUTO_KILL: false
   },
-  ENABLE_MONGODB: true,
+  ENABLE_MONGODB: false,
   COMMANDS_LOGS: true,
   COMMANDS_ERROR_LOGS: false,
-  SLASH_GLOBLE: true
+  SLASH_GLOBAL: true
 }

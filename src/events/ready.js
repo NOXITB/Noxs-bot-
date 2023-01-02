@@ -1,7 +1,7 @@
 const { version } = require(`discord.js`)
 var AsciiTable = require('ascii-table')
 var table = new AsciiTable()
-table.setBorder('│', '─', "⚫", "⚫");
+table.setBorder('│', '─', " ", " ");
 table.setTitle(`Bot is online!`)
 module.exports = {
   async execute(client) {

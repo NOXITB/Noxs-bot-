@@ -37,7 +37,7 @@ module.exports = {
     (async () => {
       try {
         await rest.put(
-          !set.SLASH_GLOBLE ?
+          !set.SLASH_GLOBAL ?
             Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID) :
             Routes.applicationCommands(CLIENT_ID),
           { body: slashCommands }
