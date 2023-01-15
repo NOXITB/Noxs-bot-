@@ -33,7 +33,7 @@ module.exports = {
         embeds: [
           new EmbedBuilder()
             .setColor(totalLatency < 200 ? client.embed.successcolor : totalLatency < 500 ? client.embed.stanbycolor : client.embed.wrongcolor)
-            .setTitle(`Returns Latency And API Ping`)
+            .setTitle(`${client.user.tag}'s Runtime Stats || Pong!!`)
             .setFields([
               {
                 name: `📡 Websocket Latency`,
@@ -50,7 +50,9 @@ module.exports = {
                 value: `>>> \`\`\`m\n${days} Days : ${hours} Hrs : ${minutes} Mins : ${seconds} Secs\`\`\``,
                 inline: false
               }
-            ])]
+            ])
+        .setFooter({text: client.embed.footertext})
+        ]
       })
     } catch (error) {
       client.slash_err(client, interaction, error);

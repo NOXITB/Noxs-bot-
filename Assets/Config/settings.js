@@ -1,7 +1,7 @@
 module.exports = {
   REPL_USER: true, // Set to true if you are using REPLIT || Or else set to false.
   REPL_SETTINGS: {
-    EXPRESS: false,
+    EXPRESS: true,
     AUTO_KILL: false
   },
   ENABLE_MONGODB: false,

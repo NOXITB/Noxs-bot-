@@ -24,7 +24,7 @@ module.exports = {
           return await interaction.reply({
             ephemeral: true,
             embeds: [new EmbedBuilder()
-              .setTitle(`${emojis.MESSAGE.x} **That Command Has Been Disabled By The Developers! Please Try Later.**`).setColor(client.embed.wrongcolor)
+              .setTitle(`${emojis.MESSAGE.x} **This command is disabled by the developers.**`).setColor(client.embed.wrongcolor)
             ]
           }).catch((e) => {
             console.log(e)
@@ -34,7 +34,7 @@ module.exports = {
         if (slashCommand.maintenance) {
           return await interaction.reply({
             ephemeral: true,
-            content: `${emojis.MESSAGE.x} **${slashCommand.name} command is on __Maintenance Mode__** try again later!`
+            content: `${emojis.MESSAGE.x} **${slashCommand.name} command is on __Maintenance Mode__**! Sorry for the inconvenience.`
           })
         }
 
@@ -109,7 +109,6 @@ module.exports = {
         if (client.config.CHANNELS.COMMANDS_LOGS && set.COMMANDS_LOGS) await client.channels.cache.get(client.config.CHANNELS.COMMANDS_LOGS).send({
           embeds: [new EmbedBuilder()
             .setColor(client.embed.color)
-            .setAuthor({ name: "Slash Command", iconURL: `https://cdn.discordapp.com/emojis/942758826904551464.webp?size=28&quality=lossless` })
             .setThumbnail(interaction.guild.iconURL({ dynamic: true }))
             .addFields([
               { name: "**Author**", value: `\`\`\`yml\n${interaction.user.tag} [${interaction.user.id}]\`\`\`` },
